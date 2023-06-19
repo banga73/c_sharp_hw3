@@ -1,0 +1,14 @@
+Console.WriteLine("Input A(X) ");
+int AX = int.Parse(Console.ReadLine());
+Console.WriteLine("Input A(Y) ");
+int AY = int.Parse(Console.ReadLine());
+Console.WriteLine("Input A(Z) ");
+int AZ = int.Parse(Console.ReadLine());
+Console.WriteLine("Input B(X) ");
+int BX = int.Parse(Console.ReadLine());
+Console.WriteLine("Input B(Y) ");
+int BY = int.Parse(Console.ReadLine());
+Console.WriteLine("Input B(Z) ");
+int BZ = int.Parse(Console.ReadLine());
+double rez = Math.Round(Math.Sqrt(Math.Pow(AX-BX, 2) + Math.Pow(AY-BY, 2) + Math.Pow(AZ-BZ, 2)), 2);
+Console.Write($"dimention is {rez}");
